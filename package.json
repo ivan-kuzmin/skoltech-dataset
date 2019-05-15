@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
     "react-scripts": "2.1.8",
+    "reactstrap": "^8.0.0",
     "styled-components": "^4.2.0"
   },
   "scripts": {
@@ -26,6 +28,7 @@
   "devDependencies": {
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.1.0",
+    "eslint-config-react": "^1.1.7",
     "eslint-plugin-prettier": "^3.0.1",
     "prettier": "^1.17.0"
   }
