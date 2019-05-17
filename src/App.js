@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import { Container } from 'reactstrap';
 import { MediaProvider } from './contexts/MediaContext';
 import Header from './components/Header';

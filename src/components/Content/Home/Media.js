@@ -41,8 +41,8 @@ const Media = () => {
       ) : (
         <Container>
           <Row style={{ margin: '0 -20px' }}>
-            {photos.map(photo => (
-              <Photo xs={12} sm={6} md={4} lg={3} key={photo.id}>
+            {photos.map((photo, i) => (
+              <Photo xs={12} sm={6} md={4} lg={3} key={i}>
                 {photo.url ? (
                   <img className="" src={photo.url} alt={`img-${photo.id}`} />
                 ) : (
