@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/skoltech-dataset/precache-manifest.7e54c29a8c3bd50b895d362bc3671fbc.js"
+  "/skoltech-dataset/precache-manifest.09dd0d3d1772c0750269f480e70ea3c6.js"
 );
 
 workbox.clientsClaim();
