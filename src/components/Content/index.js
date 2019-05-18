@@ -1,12 +1,17 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import Home from './Home';
+import Format from './Format';
+import Downloads from './Downloads';
 
 const Content = () => (
   <main className="flex-grow-1 bg-light shadow py-4 px-3">
-    <Route exact path="/" component={Home} />
-    {/* <Route path="/about" component={About} /> */}
-    {/* <Route path="/topics" component={Topics} /> */}
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route path="/format" component={Format} />
+      <Route path="/downloads" component={Downloads} />
+      <Redirect to="/" />
+    </Switch>
   </main>
 );
 

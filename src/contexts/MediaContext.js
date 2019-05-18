@@ -19,10 +19,11 @@ export const MediaProvider = ({ children }) => {
     //     setError(error);
     //     setIsFetched(false);
     //   });
-    const data = Array(12).fill({
-      id: 0,
+    let i = 0;
+    const data = Array(...Array(12)).map(el => ({
+      id: i++,
       url: '',
-    });
+    }));
     setPhotos(data);
     setIsFetched(false);
   };
